@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B16B0C9-D89A-4067-A4E0-0F8DF29DA377}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MiMFa</RootNamespace>
+    <AssemblyName>MiMFa Framework.AI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MiMFa Framework.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exclusive\AI\Clustering\ClusterBase.cs" />
+    <Compile Include="Exclusive\AI\Clustering\EnumerableClusterBase.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalVariance.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalMedian.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalMode.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalMean.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalMinimum.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalStatic.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalMaxmum.cs" />
+    <Compile Include="Exclusive\AI\Clustering\KBase.cs" />
+    <Compile Include="Exclusive\AI\Clustering\HierarchicalBase.cs" />
+    <Compile Include="Exclusive\AI\Clustering\KMeans.cs" />
+    <Compile Include="Exclusive\AI\Clustering\RelativeBasisMaxmum.cs" />
+    <Compile Include="Exclusive\AI\Clustering\RelativeBasisMean.cs" />
+    <Compile Include="Exclusive\AI\Clustering\RelativeBasisMedian.cs" />
+    <Compile Include="Exclusive\AI\Clustering\RelativeBasisMinmum.cs" />
+    <Compile Include="Exclusive\AI\Clustering\RelativeBasisMode.cs" />
+    <Compile Include="Exclusive\AI\Clustering\RelativeBasisBase.cs" />
+    <Compile Include="Exclusive\AI\Text\Clustering\MeanSameness.cs" />
+    <Compile Include="Exclusive\AI\Text\Clustering\RelativeBasisSamenessBase.cs" />
+    <Compile Include="Exclusive\AI\Text\Clustering\MaxmumSameness.cs" />
+    <Compile Include="Exclusive\AI\Text\Clustering\MinmumSameness.cs" />
+    <Compile Include="Exclusive\AI\Text\Clustering\ModeSameness.cs" />
+    <Compile Include="Exclusive\AI\Text\Clustering\MedianSameness.cs" />
+    <Compile Include="Exclusive\AI\Text\Proccessor.cs" />
+    <Compile Include="Model\Route.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\MiMFa.csproj">
+      <Project>{adc72cd2-885e-442a-983e-0ba87b7234ef}</Project>
+      <Name>MiMFa</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MiMFa Framework.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,44 @@
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\obj\Debug\MiMFa Framework.AI.csprojResolveAssemblyReference.cache
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\obj\Debug\MiMFa Framework.AI.csprojResolveAssemblyReference.cache
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Company\Product\Software\MiMFa Framework\MiMFa Framework\MiMFa Framework 4.6\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\itextsharp.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\SharpZipLib.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.csprojResolveAssemblyReference.cache
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.csproj.GenerateResource.Cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.csprojAssemblyReference.cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.csproj.CoreCompileInputs.cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll.config
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.csproj.CopyComplete
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.Exclusive.Scraping.HTML.Tools.GetParameters.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.Exclusive.Scraping.HTML.Tools.InteractiveScraper.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.Exclusive.Scraping.HTML.Tools.ToastView.resources
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.xml

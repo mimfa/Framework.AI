@@ -1,0 +1,28 @@
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll.config
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.pdb
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.xml
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa AI.csproj.AssemblyReference.cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa AI.csproj.CoreCompileInputs.cache
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa AI.csproj.CopyComplete
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Software\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.dll
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\System.Data.SQLite.dll
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll.config
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa AI.csproj.AssemblyReference.cache
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa AI.csproj.CoreCompileInputs.cache
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa AI.csproj.CopyComplete
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.xml
