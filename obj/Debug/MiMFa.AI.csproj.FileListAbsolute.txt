@@ -26,3 +26,18 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMF
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.CopyComplete
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\9-Post\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\0-Pre\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\1-Punctuation\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\2-Trash\0-DigitalPath.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\2-Trash\1-DateTime.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\2-StopWord.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\4-Character\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\4-Character\1-English.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\9-Post\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\0-Pre\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\1-Punctuation\0-General.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\2-Smooth\0-Plural - English.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\0-DigitalPath.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\1-DateTime.pt
+D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\3-TrashWord.pt

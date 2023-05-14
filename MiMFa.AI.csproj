@@ -75,6 +75,8 @@
     <Compile Include="Exclusive\AI\Text\Clustering\MinmumSameness.cs" />
     <Compile Include="Exclusive\AI\Text\Clustering\ModeSameness.cs" />
     <Compile Include="Exclusive\AI\Text\Clustering\MedianSameness.cs" />
+    <Compile Include="Exclusive\AI\Text\Processing\English.cs" />
+    <Compile Include="Exclusive\AI\Text\Processing\Language.cs" />
     <Compile Include="Exclusive\AI\Text\Proccessor.cs" />
     <Compile Include="Model\Route.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,6 +90,54 @@
   <ItemGroup>
     <Content Include="MiMFa Framework.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Exclusive\AI\Text\Processing\Language\9-Post\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\Language\0-Pre\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\Language\1-Punctuation\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\Language\2-Trash\0-DigitalPath.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\Language\2-Trash\1-DateTime.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\3-Trash\2-StopWord.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\4-Character\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\4-Character\1-English.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\9-Post\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\0-Pre\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\1-Punctuation\0-General.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\2-Smooth\0-Plural - English.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\3-Trash\0-DigitalPath.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\3-Trash\1-DateTime.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Exclusive\AI\Text\Processing\English\3-Trash\3-TrashWord.pt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

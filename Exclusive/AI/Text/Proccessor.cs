@@ -459,7 +459,6 @@ namespace MiMFa.Exclusive.AI.Text
         {
             return (from v in WordsSplitter.Split(text) where !string.IsNullOrWhiteSpace(v) select v).ToList();
         }
-
     }
     public class LikeComparer : IEqualityComparer<string>
     {
