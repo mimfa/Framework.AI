@@ -41,3 +41,32 @@ D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Excl
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\0-DigitalPath.pt
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\1-DateTime.pt
 D:\MiMFa\My Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\3-TrashWord.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\9-Post\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\0-Pre\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\1-Punctuation\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\2-Trash\0-DigitalPath.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\Language\2-Trash\1-DateTime.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\2-StopWord.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\4-Character\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\4-Character\1-English.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\9-Post\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\0-Pre\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\1-Punctuation\0-General.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\2-Smooth\0-Plural - English.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\0-DigitalPath.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\1-DateTime.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Exclusive\AI\Text\Processing\English\3-Trash\3-TrashWord.pt
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.dll
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.AI.pdb
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\System.Data.SQLite.dll
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.dll
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.pdb
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll.config
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.pdb
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.xml
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csprojAssemblyReference.cache
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.CoreCompileInputs.cache
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.CopyComplete
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
