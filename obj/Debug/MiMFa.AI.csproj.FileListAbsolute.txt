@@ -65,8 +65,8 @@ D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framewo
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\MiMFa Framework.dll.config
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.pdb
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\HtmlAgilityPack.xml
-D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csprojAssemblyReference.cache
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.CoreCompileInputs.cache
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.CopyComplete
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.AssemblyReference.cache
