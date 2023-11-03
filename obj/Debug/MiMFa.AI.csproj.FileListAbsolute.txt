@@ -70,3 +70,4 @@ D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.cspr
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.dll
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa Framework.AI.pdb
 D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\obj\Debug\MiMFa.AI.csproj.AssemblyReference.cache
+D:\Product\Technology\MiMFa Framework\MiMFa Framework\AI\bin\Debug\Microsoft.mshtml.dll
