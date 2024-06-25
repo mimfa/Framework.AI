@@ -136,6 +136,7 @@
     <None Include="Exclusive\AI\Text\Processing\English\3-Trash\3-TrashWord.pt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

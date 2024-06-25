@@ -20,14 +20,14 @@ namespace MiMFa.Exclusive.AI.Text.Processing
 
         public RegexOptions ExpressionOptions { get; set; } = RegexOptions.IgnoreCase;
         public SmartDictionary<string, string> PreExpressions = new SmartDictionary<string, string>();
-        public SmartDictionary<string,SmartDictionary<string, string>> CorpusExpressions = new SmartDictionary<string, SmartDictionary<string, string>>();
+        public SmartDictionary<string, SmartDictionary<string, string>> CorpusExpressions = new SmartDictionary<string, SmartDictionary<string, string>>();
         public SmartDictionary<string, string> PostExpressions = new SmartDictionary<string, string>();
 
-        public Language(string separator="¶", string includePattern = "\\.pt$", string excludePattern = null)
+        public Language(string separator="¶", string includePathesPattern = "\\.pt$", string excludePathesPattern = null)
         {
             Separator = separator;
-            IncludePattern = includePattern;
-            ExcludePattern = excludePattern;
+            IncludePattern = includePathesPattern;
+            ExcludePattern = excludePathesPattern;
             Initialize();
         }
         public virtual void Initialize()
@@ -69,13 +69,13 @@ namespace MiMFa.Exclusive.AI.Text.Processing
             return Normalization(text, CorpusExpressions.Keys.ElementAtOrDefault(level));
         }
         /// <summary>
-        /// To break text into chunks after Normalization
+        /// To break text into chunks after Normalization and Segmentation
         /// </summary>
         /// <param name="text"></param>
         /// <returns></returns>
         public virtual IEnumerable<string> Tokenization(string text, string level = null)=> Segmentation(Normalization(text, level));
         /// <summary>
-        /// To break text into chunks after Normalization
+        /// To break text into chunks after Normalization and Segmentation
         /// </summary>
         /// <param name="text"></param>
         /// <returns></returns>
