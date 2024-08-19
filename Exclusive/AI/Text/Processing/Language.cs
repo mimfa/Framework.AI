@@ -36,7 +36,7 @@ namespace MiMFa.Exclusive.AI.Text.Processing
             var paths = Directory.GetDirectories(CorpusDirectory).OrderBy(v => v).ToArray();
             PreExpressions = GetPatternsValues(paths.FirstOrDefault());
             foreach (var item in paths.Skip(1).Take(paths.Length - 2))
-                CorpusExpressions.AddOrSet(Path.GetFileNameWithoutExtension(Regex.Replace(item, "^\\w\\s*-\\s*", "")).ToUpper().Trim(), GetPatternsValues(item));
+                CorpusExpressions.AddOrSet(Path.GetFileNameWithoutExtension(Regex.Replace(item, "^.+-\\s*", "")).ToUpper().Trim(), GetPatternsValues(item));
             PostExpressions = GetPatternsValues(paths.LastOrDefault());
         }
         public virtual void Finalize()
@@ -50,34 +50,74 @@ namespace MiMFa.Exclusive.AI.Text.Processing
         /// To Normalize text
         /// </summary>
         /// <param name="text"></param>
+        /// <param name="type">
+        /// Default levels are:
+        /// null: Full Processing
+        /// 1|Punctuation: Removing Punctuations
+        /// 2|Smooth: Words Smoothing
+        /// 3|Trash: Removing Trashes
+        /// 4|Character: Characters Correction
+        /// </param>
         /// <returns></returns>
-        public virtual string Normalization(string text, string level = null)
+        public virtual string Normalization(string text, string type = null)
         {
             text = PreProcess(text);
             var ks = CorpusExpressions.Keys.ToArray();
-            for (int i = 0;i < ks.Length && ks[i] != level; i++)
-                text = CorpusProcess(text, CorpusExpressions[ks[i]]);
+            if (type == null)
+                for (int i = 0; i < ks.Length; i++)
+                    text = CorpusProcess(text, CorpusExpressions[ks[i]]);
+            else
+            {
+                type = type.ToUpper().Trim();
+                if (ks.Contains(type))
+                    text = CorpusProcess(text, CorpusExpressions[type]);
+                else throw new ArgumentException("The selected type of normalization is not valid!");
+            }
             return PostProcess(text);
         }
         /// <summary>
         /// To Normalize text
         /// </summary>
         /// <param name="text"></param>
+        /// <param name="level">
+        /// Default levels are:
+        /// null: Full Processing
+        /// 1|Punctuation: Removing Punctuations
+        /// 2|Smooth: Words Smoothing
+        /// 3|Trash: Removing Trashes
+        /// 4|Character: Characters Correction
+        /// </param>
         /// <returns></returns>
         public virtual string Normalization(string text, int level)
         {
-            return Normalization(text, CorpusExpressions.Keys.ElementAtOrDefault(level));
+            return Normalization(text, CorpusExpressions.Keys.ElementAtOrDefault(level-1));
         }
         /// <summary>
         /// To break text into chunks after Normalization and Segmentation
         /// </summary>
         /// <param name="text"></param>
+        /// <param name="type">
+        /// Default levels are:
+        /// null: Full Processing
+        /// 1|Punctuation: Removing Punctuations
+        /// 2|Smooth: Words Smoothing
+        /// 3|Trash: Removing Trashes
+        /// 4|Character: Characters Correction
+        /// </param>
         /// <returns></returns>
-        public virtual IEnumerable<string> Tokenization(string text, string level = null)=> Segmentation(Normalization(text, level));
+        public virtual IEnumerable<string> Tokenization(string text, string type = null)=> Segmentation(Normalization(text, type));
         /// <summary>
         /// To break text into chunks after Normalization and Segmentation
         /// </summary>
         /// <param name="text"></param>
+        /// <param name="level">
+        /// Default levels are:
+        /// null: Full Processing
+        /// 1|Punctuation: Removing Punctuations
+        /// 2|Smooth: Words Smoothing
+        /// 3|Trash: Removing Trashes
+        /// 4|Character: Characters Correction
+        /// </param>
         /// <returns></returns>
         public virtual IEnumerable<string> Tokenization(string text, int level)=> Segmentation(Normalization(text, level));
         public virtual IEnumerable<string> Segmentation(string text)
