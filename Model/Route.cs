@@ -44,9 +44,9 @@ namespace MiMFa.Model
             Value = value;
         }
 
-        public override Route<TKey, TValue>[] AddArray(params Route<TKey, TValue>[] array)
+        public override Route<TKey, TValue>[] AddRange(params Route<TKey, TValue>[] array)
         {
-            return base.AddArray((from v in array let p = v.Parent = this select v).ToArray());
+            return base.AddRange((from v in array let p = v.Parent = this select v).ToArray());
         }
 
 

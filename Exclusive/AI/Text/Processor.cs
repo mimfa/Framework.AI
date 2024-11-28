@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace MiMFa.Exclusive.AI.Text
 {
-    public class Proccessor
+    public class Processor
     {
-        public Regex WordsSplitter = new Regex("\\W+");
-        public Percent NameSameness(string str1, string str2)
+        public virtual Regex WordsSplitter { get; set; } = new Regex("\\W+");
+        public virtual Percent NameSameness(string str1, string str2)
         {
             Percent p1 = Sameness(str1, str2);
             if (p1.Positive > 70) return p1;
@@ -38,7 +38,7 @@ namespace MiMFa.Exclusive.AI.Text
             return p1>p?p1: p;
         }
 
-        public Percent Sameness(string str1, string str2)
+        public virtual Percent Sameness(string str1, string str2)
         {
             if (string.IsNullOrEmpty(str1) && string.IsNullOrEmpty(str2)) return new Percent(0, 0, 100);
             if (string.IsNullOrEmpty(str1) && !string.IsNullOrEmpty(str2)) return new Percent(-100, 0, 0);
@@ -77,7 +77,7 @@ namespace MiMFa.Exclusive.AI.Text
             }
             return percent;
         }
-        public Percent Comparsion(string str1, string str2)
+        public virtual Percent Comparsion(string str1, string str2)
         {
             if (string.IsNullOrEmpty(str1) && string.IsNullOrEmpty(str2)) return new Percent(0, 0, 100);
             if (string.IsNullOrEmpty(str1) && !string.IsNullOrEmpty(str2)) return new Percent(-100, 0, 0);
@@ -131,7 +131,7 @@ namespace MiMFa.Exclusive.AI.Text
             return percent;
         }
 
-        public Percent ContentSameness(string str1, string str2)
+        public virtual Percent ContentSameness(string str1, string str2)
         {
             if (string.IsNullOrEmpty(str1) && string.IsNullOrEmpty(str2)) return new Percent(0, 0, 100);
             if (string.IsNullOrEmpty(str1) && !string.IsNullOrEmpty(str2)) return new Percent(-100, 0, 0);
@@ -178,7 +178,7 @@ namespace MiMFa.Exclusive.AI.Text
             }
             return percent;
         }
-        public Percent ContentComparsion(string str1, string str2)
+        public virtual Percent ContentComparsion(string str1, string str2)
         {
             if (string.IsNullOrEmpty(str1) && string.IsNullOrEmpty(str2)) return new Percent(0, 0, 100);
             if (string.IsNullOrEmpty(str1) && !string.IsNullOrEmpty(str2)) return new Percent(-100, 0, 0);
@@ -204,7 +204,7 @@ namespace MiMFa.Exclusive.AI.Text
             Percent percent = ContentSameWordPercent(str1, str2);
             return percent;
         }
-        public Percent ContentSameWordPercent(string str1, string str2)
+        public virtual Percent ContentSameWordPercent(string str1, string str2)
         {
             Percent mp = new Percent(0, 0, 0);
             Percent nnmp = new Percent(0, 0, 0);
@@ -253,7 +253,7 @@ namespace MiMFa.Exclusive.AI.Text
             return mp;
         }
 
-        public SmartKeyValueList<int, string> GetKeywords(string text)
+        public virtual SmartKeyValueList<int, string> GetKeywords(string text)
         {
             SmartKeyValueList<int, string> kws = new SmartKeyValueList<int, string>();
             List<string> ls = 
@@ -294,7 +294,7 @@ namespace MiMFa.Exclusive.AI.Text
                 kws.Add(StringService.WordsNumber(text,item), item);
             return kws;
         }
-        public List<string> GetKeywordFromAnd(string text)
+        public virtual List<string> GetKeywordFromAnd(string text)
         {
             List<string> ls = new List<string>();
             try
@@ -311,7 +311,7 @@ namespace MiMFa.Exclusive.AI.Text
 
             return ls;
         }
-        public List<string> GetKeywordFromComma(string text)
+        public virtual List<string> GetKeywordFromComma(string text)
         {
             List<string> ls = new List<string>();
             try
@@ -328,7 +328,7 @@ namespace MiMFa.Exclusive.AI.Text
 
             return ls;
         }
-        public List<string> GetKeywordFromNumber(string text)
+        public virtual List<string> GetKeywordFromNumber(string text)
         {
             List<string> ls = new List<string>();
             try
@@ -344,7 +344,7 @@ namespace MiMFa.Exclusive.AI.Text
             catch { }
             return ls;
         }
-        public List<string> GetKeywordFromEqual(string text)
+        public virtual List<string> GetKeywordFromEqual(string text)
         {
             List<string> ls = new List<string>();
             try
@@ -360,19 +360,19 @@ namespace MiMFa.Exclusive.AI.Text
             catch { }
             return ls;
         }
-        public List<string> GetKeywordFromParenthesis(string text)
+        public virtual List<string> GetKeywordFromParenthesis(string text)
         {
             List<string> ls = StringService.WordsBetween(text, "(", ")", false);
             return ls;
         }
 
 
-        public List<string> GetKeywordFromBrackets(string text)
+        public virtual List<string> GetKeywordFromBrackets(string text)
         {
             List<string> ls = StringService.WordsBetween(text, "[", "]", false);
             return ls;
         }
-        public List<string> GetKeywordFromBraces(string text)
+        public virtual List<string> GetKeywordFromBraces(string text)
         {
             List<string> ls = new List<string>();
             try
@@ -389,17 +389,17 @@ namespace MiMFa.Exclusive.AI.Text
 
             return ls;
         }
-        public List<string> GetKeywordFromQuotation(string text)
+        public virtual List<string> GetKeywordFromQuotation(string text)
         {
             List<string> ls = StringService.WordsBetween(text, "'", "'", false);
             return ls;
         }
-        public List<string> GetKeywordFromDoubleQuotation(string text)
+        public virtual List<string> GetKeywordFromDoubleQuotation(string text)
         {
             List<string> ls = StringService.WordsBetween(text, "\"", "\"", false);
             return ls;
         }
-        public List<string> GetKeywordFromStruct(string text)
+        public virtual List<string> GetKeywordFromStruct(string text)
         {
             List<string> ls = new List<string>();
             List<string> sen = GetSentences(text);
@@ -419,12 +419,12 @@ namespace MiMFa.Exclusive.AI.Text
             return ls;
         }
 
-        public List<string> GetSentences(string text)
+        public virtual List<string> GetSentences(string text)
         {
             return text.Split(new string[] { ".", ";", "؛", "\n", "!", "؟", "?" }, StringSplitOptions.RemoveEmptyEntries).ToList();
         }
 
-        public List<string> NamesListCompletion(List<string> namesList)
+        public virtual List<string> NamesListCompletion(List<string> namesList)
         {
             List<string> result = new List<string>();
             List<List<string>> com = new List<List<string>>();
@@ -455,21 +455,50 @@ namespace MiMFa.Exclusive.AI.Text
             return result;
         }
 
-        public List<string> GetWords(string text)
+        public virtual List<string> GetWords(string text)
         {
             return (from v in WordsSplitter.Split(text) where !string.IsNullOrWhiteSpace(v) select v).ToList();
+        }
+
+        public virtual Regex Trimmer { get; set; } = new Regex(@"(^[\s(){}\[\]\\\/.=+\-*!`'""@#$%^&|<>,;:?~]+)|([\s(){}\[\]\\\/.=+\-*!`'""@#$%^&|<>,;:?~]+$)");
+        public virtual Regex Punctuationner { get; set; } = new Regex(@"[\n\r\t(){}\[\]\\\/.=+\-*!`'""@#$%^&|<>,;:?~]+");
+      
+        public virtual string Trim(string text)
+        {
+            return Trimmer.Replace(text, " ").Trim();
+        }
+        public virtual string Trim(string text, string pattern)
+        {
+            return Regex.Replace(text, pattern, " ").Trim();
+        }
+        public virtual string Trim(string text, Regex regex)
+        {
+            return regex.Replace(text, " ").Trim();
+        }
+
+        public virtual string OnlyWords(string text)
+        {
+            return Punctuationner.Replace(text," ");
+        }
+        public virtual string OnlyWords(string text, string pattern)
+        {
+            return Regex.Match(text, pattern).Value;
+        }
+        public virtual string OnlyWords(string text, Regex regex)
+        {
+            return regex.Match(text).Value;
         }
     }
     public class LikeComparer : IEqualityComparer<string>
     {
-        Proccessor Comparer = new Proccessor();
+        Processor Comparer = new Processor();
         public bool Equals(string x, string y)=> Comparer.NameSameness(x, y).Both > 60;
 
         public int GetHashCode(string obj)=>obj.GetHashCode();
     }
     public class SameComparer : IEqualityComparer<string>
     {
-        Proccessor Comparer = new Proccessor();
+        Processor Comparer = new Processor();
         public bool Equals(string x, string y)=> Comparer.NameSameness(x, y).Both > 80;
 
         public int GetHashCode(string obj)=>obj.GetHashCode();

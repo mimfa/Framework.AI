@@ -77,7 +77,7 @@
     <Compile Include="Exclusive\AI\Text\Clustering\MedianSameness.cs" />
     <Compile Include="Exclusive\AI\Text\Processing\English.cs" />
     <Compile Include="Exclusive\AI\Text\Processing\Language.cs" />
-    <Compile Include="Exclusive\AI\Text\Proccessor.cs" />
+    <Compile Include="Exclusive\AI\Text\Processor.cs" />
     <Compile Include="Model\Route.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
